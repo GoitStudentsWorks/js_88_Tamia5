@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tasty Treats</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="https://uicdn.toast.com/tui.pagination/latest/tui-pagination.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  
+  <script type="module" crossorigin src="/js_88_Tamia5/assets/favorite-8f325076.js"></script>
+  <link rel="modulepreload" crossorigin href="/js_88_Tamia5/assets/dark-theme-ace4b228.js">
+  <link rel="stylesheet" href="/js_88_Tamia5/assets/dark-theme-a86a8025.css">
+</head>
+
+<body>
+  <header class="header">
+  <div class="header-container container">
+    <nav class="header-nav">
+      <ul class="nav-menu list">
+        <li>
+          <a href="./index.html" class="link nav-link desk-h">Home</a>
+        </li>
+        <li>
+          <a href="./favorite.html" class="link nav-link">Favorites</a>
+        </li>
+      </ul>
+    </nav>
+
+    <a href="./index.html" class="link logo" title="logotype"
+      >tasty<span class="dark-part">treats.</span></a
+    >
+
+    <div class="header-svg">
+      <a href="tel:+380730000000" class="btn-shopping-cart link">
+        <svg class="svg-shopping-cart" width="24" height="24">
+          <use href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-shopping-cart"></use>
+        </svg>
+      </a>
+
+      <label class="switch" for="theme-toggle">
+        <input type="checkbox" id="theme-toggle" />
+        <span class="slider round"></span>
+      </label>
+
+      <button class="header-btn-hamburger" type="button">
+        <svg class="hamburger-svg">
+          <use href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-hamburger"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- =====Mobile menu====== -->
+
+<div class="header-mobile-menu">
+  <button class="header-btn-close">
+    <svg class="header-btn-close-svg">
+      <use href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-x"></use>
+    </svg>
+  </button>
+  <nav class="header-mobile-nav">
+    <ul class="list header-nav-mobile-list">
+      <li>
+        <a href="./index.html" class="link nav-mobile-link link-h">Home</a>
+      </li>
+      <li>
+        <a href="./favorite.html" class="link nav-mobile-link">Favorites</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="switch-toggler">
+    <label class="switch-mobile" for="theme-toggle-mob">
+      <input type="checkbox" id="theme-toggle-mob" />
+      <span class="slider-mobile round"></span>
+    </label>
+  </div>
+</div>
+
+
+  <main>
+    <section class="fav-hero ">
+      <div class="section-fav-hero container ">
+  <div class=" hero-container">
+    <picture class="favorite-image">
+      <source media="(min-width:1280px)" srcset="/js_88_Tamia5/assets/carddesc-a1a7878d.jpg 1x, /js_88_Tamia5/assets/card@2xdesc-c87b0515.jpg 2x">
+      <source media="(min-width:768px)" srcset="/js_88_Tamia5/assets/cardtab@1-57cf42a7.png 1x, /js_88_Tamia5/assets/card@2xtab-af8bb2eb.jpg 2x">
+      <source media="(max-width:767px)" srcset="/js_88_Tamia5/assets/card@1xmob-d9ef4916.jpg 1x, /js_88_Tamia5/assets/card@2xmob-18c430c1.jpg 2x">
+      <img class="image-fav" src="../images/card@1xmob.jpg" alt="Favorite food" loading="lazy">
+    </picture>
+  </div>
+</div>
+      <div class="block-fav container">
+  <svg class="head-icon" width="90" height="80">
+    <use href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-favorite"></use>
+  </svg>
+  <p class="message">It appears that you haven't added any recipes to your favorites
+    yet. To
+    get
+    started,
+    you can add recipes that you like
+    to your favorites for easier access in the future.</p>
+
+</div>
+    </section>
+
+    <section class="sectirion-resp">
+      <div class="container">
+        <div class="fav-categories ">
+          <button class="fav-categories-btn" type="button">All categories</button>
+        </div>
+        <ul class="recipes-fav"></ul>
+      </div>
+
+    </section>
+  </main>
+  <div class="backdrop-recipe is-hidden" data-modal-recipe></div>
+  
+  
+  
+</body>
+
+</html>

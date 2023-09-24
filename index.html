@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasty Treats</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="https://uicdn.toast.com/tui.pagination/latest/tui-pagination.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  
+  <script type="module" crossorigin src="/js_88_Tamia5/assets/index-08e1375d.js"></script>
+  <link rel="modulepreload" crossorigin href="/js_88_Tamia5/assets/dark-theme-ace4b228.js">
+  <link rel="stylesheet" href="/js_88_Tamia5/assets/dark-theme-a86a8025.css">
+  <link rel="stylesheet" href="/js_88_Tamia5/assets/index-78e1d472.css">
+</head>
+
+<body>
+  <header class="header">
+  <div class="header-container container">
+    <nav class="header-nav">
+      <ul class="nav-menu list">
+        <li>
+          <a href="./index.html" class="link nav-link desk-h">Home</a>
+        </li>
+        <li>
+          <a href="./favorite.html" class="link nav-link">Favorites</a>
+        </li>
+      </ul>
+    </nav>
+
+    <a href="./index.html" class="link logo" title="logotype"
+      >tasty<span class="dark-part">treats.</span></a
+    >
+
+    <div class="header-svg">
+      <a href="tel:+380730000000" class="btn-shopping-cart link">
+        <svg class="svg-shopping-cart" width="24" height="24">
+          <use href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-shopping-cart"></use>
+        </svg>
+      </a>
+
+      <label class="switch" for="theme-toggle">
+        <input type="checkbox" id="theme-toggle" />
+        <span class="slider round"></span>
+      </label>
+
+      <button class="header-btn-hamburger" type="button">
+        <svg class="hamburger-svg">
+          <use href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-hamburger"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- =====Mobile menu====== -->
+
+<div class="header-mobile-menu">
+  <button class="header-btn-close">
+    <svg class="header-btn-close-svg">
+      <use href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-x"></use>
+    </svg>
+  </button>
+  <nav class="header-mobile-nav">
+    <ul class="list header-nav-mobile-list">
+      <li>
+        <a href="./index.html" class="link nav-mobile-link link-h">Home</a>
+      </li>
+      <li>
+        <a href="./favorite.html" class="link nav-mobile-link">Favorites</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="switch-toggler">
+    <label class="switch-mobile" for="theme-toggle-mob">
+      <input type="checkbox" id="theme-toggle-mob" />
+      <span class="slider-mobile round"></span>
+    </label>
+  </div>
+</div>
+
+
+
+  <main>
+    <section class="hero-section">
+  <div class="hero-container container">
+    <div class="hero-desk">
+      <h1 class="title">Learn to Cook <span class="hero-span">Tasty Treats'</span> Customizable Masterclass</h1>
+      <p class="hero-text">TastyTreats - Customize Your Meal with Ingredient Options and Step-by-Step Video Guides.</p>
+      <button type="button" class="order-btn btnOrderNow" data-id="6462a8f74c3d0ddd28897fc1">Order now</button>
+    </div>
+    
+    <div class="swiper swiper-hero">
+      <div class="swiper-wrapper swiper-wrraper-hero"></div>
+      <div class="swiper-pagination swiper-pagination-hero"></div>
+    </div>
+  </div>
+</section>
+    <section class="main-section">
+      <div class="container main-container">
+        <aside class="left-site">
+          <div class="categories">
+  <button class="all-categories-btn js-btn-all-categories" type="button">
+    All categories
+  </button>
+  <ul class="js-categories">
+  </ul>
+</div>
+          <div class="popular-recipes-container">
+  <h2 class="popular-recipes-title">Popular recipes</h2>
+  <ul class="popular-recipes-list"></ul>
+</div>
+
+        </aside>
+        <div class="right-site">
+    <form name="search-form" class="search-form" id="search-form">
+
+        <label class="search-label">Search
+            <div class="icon-search-cont">
+                <input type="text" name="search" class="search-input" placeholder="Enter text">
+                <svg class="icon-search">
+                    <use href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-Vector"></use>
+                </svg>
+            </div>
+        </label>
+
+        <label for="selectTime" class="time-form">Time
+            <div class="icon-time-cont">
+                <select name="selectTime" class="select-time" id="selectTime">
+                    <option value="" selected>0 min</option>
+                    <option value="5">5 min</option>
+                    <option value="10">10 min</option>
+                    <option value="15">15 min</option>
+                    <option value="20">20 min</option>
+                    <option value="25">25 min</option>
+                    <option value="30">30 min</option>
+                    <option value="35">35 min</option>
+                    <option value="40">40 min</option>
+                    <option value="45">45 min</option>
+                    <option value="50">50 min</option>
+                    <option value="55">55 min</option>
+                    <option value="60">60 min</option>
+                    <option value="65">65 min</option>
+                    <option value="70">70 min</option>
+                    <option value="75">75 min</option>
+                    <option value="80">80 min</option>
+                    <option value="85">85 min</option>
+                    <option value="90">90 min</option>
+                    <option value="95">95 min</option>
+                    <option value="100">100 min</option>
+                    <option value="105">105 min</option>
+                    <option value="110">110 min</option>
+                    <option value="115">115 min</option>
+                    <option value="120">120 min</option>
+                </select>
+                <svg class="select-icon" width="18" height="18">
+                    <use href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-chevron-down"></use>
+                </svg>
+            </div>
+        </label>
+
+        <label for="selectArea" class="area-form">Area
+            <div class="icon-area-cont">
+                <select name="selectArea" class="seleact-area" id="selectArea">
+                    <option value="" selected>Region</option>
+                </select>
+                <svg class="select-icon">
+                    <use href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-chevron-down"></use>
+                </svg>
+            </div>
+
+        </label>
+
+
+
+        <label for="selectIngredients" class="ingr-form">Ingredient
+            <div class="icon-ing-cont">
+                <select name="selectIngredients" class="select-ing" id="selectIngredients">
+                    <option value="" selected>Product</option>
+                </select>
+                <svg class="select-icon">
+                    <use href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-chevron-down"></use>
+                </svg>
+            </div>
+        </label>
+
+    </form>
+    <button class="btn-form" name="btnReset" form="search-form">
+        <svg class="icon-btn">
+            <use href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-reset"></use>
+        </svg>
+        Reset the filter</button>
+    <ul class="categories-container"> </ul>
+</div>
+      </div>
+      <div>
+        <div class="js-pagination"></div>
+      </div>
+    </section>
+  </main>
+  <div class="backdrop-recipe is-hidden" data-modal-recipe></div>
+  <div class="order-backdrop backdrop is-hidden">
+    <div class="order-modal modal is-hidden" data-order-modal>
+        <button class="order-close-btn" type="button" data-order-close>
+            <svg class="order-close-icon" width="24" height="24">
+                <use href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-x"></use>
+            </svg>
+        </button>
+        <div class="order-form-wrapper wrapper">
+            <h2 class="order-form-title">Order now</h2>
+            <form class="order-form form" name="order-form">
+                <label class="order-form-label" for="user-name">Name</label>
+                <div class="order-form-element">
+
+                    <input class="order-form-input" name="user-name" id="user-name" autofocus autocomplete="on" required
+                        minlength="2" pattern="[A-Za-z\s]{2,}" placeholder="Name" />
+                </div>
+                <label class="order-form-label" for="tel">Phone number</label>
+                <div class="order-form-element">
+                    <input class="order-form-input" type="tel" name="tel" id="tel" autocomplete="on" required
+                        pattern="^[0-9]{10}$" placeholder="0955555555" />
+                </div>
+                <label class="order-form-label" for="email">Email</label>
+                <div class="order-form-element">
+                    <input class="order-form-input" type="email" name="email" id="email" required autocomplete="on"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter email" />
+                </div>
+                <label class="order-form-label" for="user-comment">Comment</label>
+                <div class="order-form-element">
+                    <textarea class="order-form-input comment" name="user-comment" id="user-comment"
+                        placeholder="Enter text"></textarea>
+                </div>
+                <button class="order-form-btn send-btn" type="submit">Send</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+  <button type="button" class="rating-open-btn btnOrderNow">
+    Give a rating
+</button>
+<div class="rating-backdrop backdrop is-hidden">
+    <div class="rating-modal modal is-hidden" data-rating-modal>
+        <button class="rating-close-btn" type="button">
+            <svg class="rating-close-icon" width="24" height="24" data-rating-close>
+                <use href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-x"></use>
+            </svg>
+        </button>
+        <div class="rating-wrapper wrapper">
+            <div class="rating-top-wrapper">
+            <h2 class="rating-title">Rating</h2>
+            <div class="rating-body-wrapper">
+                <p class="rating-value">0.0</p>
+                <div class="rating">
+                <div class="rating-body rating-set">
+                    <div class="rating-active">
+<div class="rating">
+    <input type="checkbox" id="star1" name="rating" value="1" />
+    <label for="star1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <use class="rating-icon-use" href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-star"></use>
+        </svg>
+    </label>
+    <input type="checkbox" id="star2" name="rating" value="2" />
+    <label for="star2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <use class="rating-icon-use" href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-star"></use>
+        </svg>
+    </label>
+    <input type="checkbox" id="star3" name="rating" value="3" />
+    <label for="star3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <use class="rating-icon-use" href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-star"></use>
+        </svg>
+    </label>
+    <input type="checkbox" id="star4" name="rating" value="4" />
+    <label for="star4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <use class="rating-icon-use" href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-star"></use>
+        </svg>
+    </label>
+    <input type="checkbox" id="star5" name="rating" value="5" />
+    <label for="star5">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <use class="rating-icon-use" href="/js_88_Tamia5/assets/icons-c95753b4.svg#icon-star"></use>
+        </svg>
+    </label>
+</div>
+
+
+                        <!-- <div class="rating-items">
+                            <label for="rating-1" class="rating-item-label" name="rating" >
+                                <input type="radio" class="rating-item-input" name="rating" value="1" id="rating-1" aria-label="bad">
+                                <svg class="rating-item-icon" width="24px" height="24px">
+                                    <use class="rating-icon-use" href="../icons.svg#icon-star"></use>
+                                </svg>
+                            </label>
+                            <label for="rating-2" class="rating-item-label" name="rating">
+                                <input type="radio" class="rating-item-input" name="rating" value="2" id="rating-2" aria-label="not very good">
+                                <svg class="rating-item-icon" width="24px" height="24px">
+                                    <use href="../icons.svg#icon-star"></use>
+                                </svg>
+                            </label>
+                            <label for="rating-3" class="rating-item-label" name="rating">
+                                <input type="radio" class="rating-item-input" name="rating" value="3" id="rating-3" aria-label="good">
+                                <svg class="rating-item-icon" width="24px" height="24px">
+                                    <use href="../icons.svg#icon-star"></use>
+                                </svg>
+                            </label>
+                            <label for="rating-4" class="rating-item-label" name="rating">
+                                <input type="radio" class="rating-item-input" name="rating" value="4" id="rating-4" aria-label="great">
+                                <svg class="rating-item-icon" width="24px" height="24px">
+                                    <use href="../icons.svg#icon-star"></use>
+                                </svg>
+                            </label>
+                            <label for="rating-5" class="rating-item-label" name="rating">
+                                <input type="radio" class="rating-item-input" name="rating" value="5" id="rating-5" aria-label="the best">
+                                <svg class="rating-item-icon" width="24px" height="24px">
+                                    <use href="../icons.svg#icon-star"></use>
+                                </svg>
+                            </label>
+                        </div> -->
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <form action="/submit-form" class="rating-form">
+                <label class="rating-form-label" for="email">Email</label>
+                <div class="rating-form-element">
+                    <input class="rating-form-input" type="email" name="email" id="email" required autocomplete="on"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter email" />
+                </div>
+                <button class="rating-form-btn send-btn" type="submit">Send</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+
+  
+</body>
+
+</html>
